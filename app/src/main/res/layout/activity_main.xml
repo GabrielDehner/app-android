@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_web_12"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/imagen_circulo"
+            android:padding="13dp"
+            android:src="@drawable/logo_1_sin_fondo"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Iniciar Sesión"
+            android:id="@+id/btnIniciarSesion"
+            android:background="@drawable/btn_redondeado_blanco"
+            android:textColor="#403f3f"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="18dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Iniciar Sesión con Facebook"
+            android:id="@+id/btnIniciarSesionFacebook"
+            android:background="@drawable/btn_redondeado_facebook"
+            android:textColor="@color/white"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
